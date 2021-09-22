@@ -8,7 +8,7 @@ namespace myvector {
 	};
 	void init(vector_t* vect); //O(1)
 	void destroy(vector_t* vect); // O(1)
-	int push_back(vector_t* vect, int val); //амортизированное O(1), т.е. иногда O(n)
+	int push_back(vector_t* vect, int val); //Р°РјРѕСЂС‚РёР·РёСЂРѕРІР°РЅРЅРѕРµ O(1), С‚.Рµ. РёРЅРѕРіРґР° O(n)
 	void printv(vector_t* vect); // O(n)
 	int set(vector_t* vect, size_t i, int val); // O(1)
 	int get(vector_t* vect, int i, int* res); // O(1)

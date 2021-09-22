@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "VectorLib.h"
 /*
-	Реализовать vector для любого типа данных с помощью *void
+	СЂРµР°Р»РёР·РѕРІР°С‚СЊ vector РґР»СЏ Р»СЋР±РѕРіРѕ С‚РёРїР° РґР°РЅРЅС‹С… СЃ РїРѕРјРѕС‰СЊСЋ *void
 */
 using namespace myvector;
 int main() {
